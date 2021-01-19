@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "optional": "c",
+        "ratio": "c",
+        "system_error": "c",
+        "array": "c",
+        "functional": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "istream": "c",
+        "ostream": "c",
+        "variant": "c",
+        "syntaxtree.h": "c",
+        "sstream": "c",
+        "IR.C": "cpp",
+        "*.tcc": "c",
+        "memory": "c"
+    }
+}

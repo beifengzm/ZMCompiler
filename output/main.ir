@@ -1,0 +1,12 @@
+Function add 3
+Param int z
+Param int y
+Param int x
+%t1 = count <= 3
+%t2 = ad > count
+%t3 = %t1 & %t2
+%t4 = %t3 | ADFAfdsa
+%t5 = %t4 & afdba
+%t6 = %t5 & bfda
+count = %t6
+End add
