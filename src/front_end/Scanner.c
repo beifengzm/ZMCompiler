@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "global.h"
+#include "state.h"
 #include "Keywords.h"
 #include "Scanner.h"
 

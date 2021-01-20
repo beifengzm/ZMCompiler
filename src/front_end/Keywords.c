@@ -71,6 +71,6 @@ static unsigned int getHash(char *str)
     register unsigned int h = 0; 
     register unsigned char *p; 
     for(p = (unsigned char*)str; *p ; p++) 
-    h = 31 * h + *p; 
+        h = 31 * h + *p; 
     return h%BUCKET_SIZE;
 } 
