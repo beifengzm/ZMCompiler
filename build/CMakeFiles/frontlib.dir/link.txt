@@ -1,2 +1,0 @@
-/usr/bin/ar qc libfrontlib.a CMakeFiles/frontlib.dir/src/front_end/Keywords.c.o CMakeFiles/frontlib.dir/src/front_end/Parser.c.o CMakeFiles/frontlib.dir/src/front_end/Scanner.c.o CMakeFiles/frontlib.dir/src/front_end/SyntaxTree.c.o CMakeFiles/frontlib.dir/src/front_end/ThreeAdress.c.o
-/usr/bin/ranlib libfrontlib.a
