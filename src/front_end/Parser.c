@@ -248,7 +248,7 @@ struct TreeNode* parsingExpBracket()
     return pCurRoot;
 }
 
-static struct TreeNode* parsingArrayRef()
+struct TreeNode* parsingArrayRef()
 {
     struct TreeNode* pCurRoot = NULL;
     getToken();
@@ -274,7 +274,7 @@ struct TreeNode* parsingStatements()
     return pCurRoot;
 }
 
-static struct TreeNode* parsingStatement()
+struct TreeNode* parsingStatement()
 {
     struct TreeNode* pCurRoot = NULL;
     struct TokenNode* p1stToken = getKthFromCurrToken(1);
@@ -346,7 +346,7 @@ static struct TreeNode* parsingStatement()
 }
 
 /*** 解析函数参数 ***/
-static struct TreeNode* parsingFunctionParam()
+struct TreeNode* parsingFunctionParam()
 {
     struct TreeNode* pCurRoot = NULL;
     getToken();
@@ -372,7 +372,7 @@ static struct TreeNode* parsingFunctionParam()
 }
 
 /*** 解析参数列表 ***/
-static struct TreeNode* parsingFunctionParamList()
+struct TreeNode* parsingFunctionParamList()
 {
     struct TreeNode* pCurRoot = NULL;
     struct TreeNode* pnode[2];
@@ -396,7 +396,7 @@ static struct TreeNode* parsingFunctionParamList()
     return pCurRoot;
 }
 
-static struct TreeNode* parsingFunctionBody()
+struct TreeNode* parsingFunctionBody()
 {
     struct TreeNode* pCurRoot = NULL;
     pCurRoot = parsingStatements();
@@ -450,7 +450,7 @@ struct TreeNode* parsingCallStatement()
     return pCurRoot;
 }
 
-static struct TreeNode* parsingDefineStatement()
+struct TreeNode* parsingDefineStatement()
 {
     struct TreeNode* pCurRoot = NULL;
     struct TreeNode* pnode[2];
@@ -496,7 +496,7 @@ static struct TreeNode* parsingDefineStatement()
     return pCurRoot;
 }
 
-static struct TreeNode* parsingWhileStatment()
+struct TreeNode* parsingWhileStatment()
 {
     struct TreeNode* pCurRoot;
     getToken(); 
@@ -509,7 +509,7 @@ static struct TreeNode* parsingWhileStatment()
     return pCurRoot;
 }
 
-static struct TreeNode* parsingIfStatement()
+struct TreeNode* parsingIfStatement()
 {
     struct TreeNode* pCurRoot;
     getToken(); 
@@ -526,7 +526,7 @@ static struct TreeNode* parsingIfStatement()
     return pCurRoot;
 }
 
-static struct TreeNode* parsingElseStatement()
+struct TreeNode* parsingElseStatement()
 {
     struct TreeNode* pCurRoot;
     getToken(); 
@@ -547,7 +547,7 @@ static struct TreeNode* parsingElseStatement()
     return pCurRoot;
 }
 
-static struct TreeNode* parsingForStatement()
+struct TreeNode* parsingForStatement()
 {
     struct TreeNode* pCurRoot = NULL;
     getToken();
@@ -562,7 +562,7 @@ static struct TreeNode* parsingForStatement()
     return pCurRoot;
 }
 
-static struct TreeNode* parsingAssignStatement()
+struct TreeNode* parsingAssignStatement()
 {
     struct TreeNode* pCurRoot = NULL;
     getToken();
@@ -571,7 +571,7 @@ static struct TreeNode* parsingAssignStatement()
     return pCurRoot;
 }
 
-static struct TreeNode* parsingReturnStatement()
+struct TreeNode* parsingReturnStatement()
 {
     struct TreeNode* pCurRoot = NULL;
     getToken();
@@ -583,7 +583,7 @@ static struct TreeNode* parsingReturnStatement()
     return pCurRoot;
 }
 
-static struct TreeNode* parsingBreakStatement()
+struct TreeNode* parsingBreakStatement()
 {
     struct TreeNode* pCurRoot = NULL;
     getToken();
@@ -592,7 +592,7 @@ static struct TreeNode* parsingBreakStatement()
     return pCurRoot;
 }
 
-static struct TreeNode* parsingContinueStatement()
+struct TreeNode* parsingContinueStatement()
 {
     struct TreeNode* pCurRoot = NULL;
     getToken();
