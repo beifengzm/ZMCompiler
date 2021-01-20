@@ -321,10 +321,8 @@ struct TreeNode* parsingStatement()
         struct TreeNode* tmpNode;
         if (!strcmp(getKthFromCurrToken(1)->value, "[")) // array
         {
-             printf("aaa\n");
             rollbackToken();
             tmpNode = parsingArrayRef();
-            printf("aaa\n");
         }
         else 
         {

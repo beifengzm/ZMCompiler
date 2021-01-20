@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtoollib.a CMakeFiles/toollib.dir/src/tools/Hash.c.o
+/usr/bin/ranlib libtoollib.a

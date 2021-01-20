@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/IRTest.dir/test/IRTest.c.o -o IRTest  libfrontlib.a libtoollib.a 

@@ -1,0 +1,7 @@
+/home/zhangmeng/myCode/compiler/nand2tetris/ZMComplier/build/CMakeFiles/rebuild_cache.dir
+/home/zhangmeng/myCode/compiler/nand2tetris/ZMComplier/build/CMakeFiles/IRTest.dir
+/home/zhangmeng/myCode/compiler/nand2tetris/ZMComplier/build/CMakeFiles/frontlib.dir
+/home/zhangmeng/myCode/compiler/nand2tetris/ZMComplier/build/CMakeFiles/edit_cache.dir
+/home/zhangmeng/myCode/compiler/nand2tetris/ZMComplier/build/CMakeFiles/toollib.dir
+/home/zhangmeng/myCode/compiler/nand2tetris/ZMComplier/build/CMakeFiles/SyntaxTree.dir
+/home/zhangmeng/myCode/compiler/nand2tetris/ZMComplier/build/CMakeFiles/HashTest.dir

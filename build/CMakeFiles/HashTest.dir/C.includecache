@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/tools/Hash.h
+
+/home/zhangmeng/myCode/compiler/nand2tetris/ZMComplier/test/HashTest.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+Hash.h
+/home/zhangmeng/myCode/compiler/nand2tetris/ZMComplier/test/Hash.h
+

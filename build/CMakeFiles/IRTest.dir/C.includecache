@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/front_end/Scanner.h
+
+../include/front_end/SyntaxTree.h
+Scanner.h
+../include/front_end/Scanner.h
+
+../include/front_end/ThreeAdress.h
+
+/home/zhangmeng/myCode/compiler/nand2tetris/ZMComplier/test/IRTest.c
+stdio.h
+-
+stdlib.h
+-
+SyntaxTree.h
+/home/zhangmeng/myCode/compiler/nand2tetris/ZMComplier/test/SyntaxTree.h
+ThreeAdress.h
+/home/zhangmeng/myCode/compiler/nand2tetris/ZMComplier/test/ThreeAdress.h
+
